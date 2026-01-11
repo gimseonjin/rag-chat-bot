@@ -1,4 +1,4 @@
-import Str from 'utils/Str';
+import { getEmbedding } from './utils/getEmbeddings';
 
-const a=1;
-Str.hello();
+const vector = await getEmbedding('샘플 텍스트');
+console.log(vector)
