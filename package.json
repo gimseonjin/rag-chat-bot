@@ -8,13 +8,15 @@
     "start": "tsdown && node dist/index.mjs",
     "fetchPosts": "tsdown && node dist/fetchPosts.mjs",
     "storeEmbeddings": "tsdown && node dist/storeEmbeddings.mjs",
-    "answerQuestion": "tsdown && node dist/answerQuestion.mjs"
+    "answerQuestion": "tsdown && node dist/answerQuestion.mjs",
+    "server": "tsdown && node dist/server.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/express": "^5.0.6",
     "@types/html-to-text": "^9.0.4",
     "@types/node": "^25.0.6",
     "@types/pg": "^8.16.0",
@@ -27,6 +29,7 @@
   },
   "dependencies": {
     "dotenv": "^17.2.3",
+    "express": "^5.2.1",
     "html-to-text": "^9.0.5",
     "openai": "^6.16.0",
     "pg": "^8.16.3"

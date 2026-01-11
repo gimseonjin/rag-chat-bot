@@ -1,6 +1,6 @@
-import { Client, type ClientConfig } from 'pg';
+import { Pool, type PoolConfig } from 'pg';
 
-const config: ClientConfig = {
+const config: PoolConfig = {
   host: 'localhost',
   port: 5432,
   user: 'postgres',
@@ -8,6 +8,6 @@ const config: ClientConfig = {
   database: 'rag_practice',
 };
 
-const pgClient = new Client(config);
+const pgClient = new Pool(config);
 
 export { pgClient };
