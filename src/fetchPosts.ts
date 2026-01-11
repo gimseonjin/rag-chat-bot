@@ -1,6 +1,8 @@
 import dotenv from 'dotenv';
 import saveJson from 'utils/saveJson';
 import retryWithBackoff from 'utils/retry';
+import htmlToText from 'utils/htmlToText';
+
 dotenv.config();
 
 type GhostPost = {
@@ -97,7 +99,7 @@ async function getPostContent(slug: string): Promise<GhostPostItemT> {
     return {
         slug: post.slug,
         title: post.title,
-        content: post.html,
+        content: htmlToText(post.html),
         updated_at: post.updated_at,
     };
 }
