@@ -1,7 +1,7 @@
 import { defineConfig } from 'tsdown';
 
 export default defineConfig({
-  entry: ['src/index.ts', "src/fetchPosts.ts"],
+  entry: ['src/index.ts', "src/fetchPosts.ts", "src/storeEmbeddings.ts"],
   format: ['esm'],
   target: 'node20',
   outDir: 'dist',

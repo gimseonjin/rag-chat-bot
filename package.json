@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsdown",
     "start": "tsdown && node dist/index.mjs",
-    "fetchPosts": "tsdown && node dist/fetchPosts.mjs"
+    "fetchPosts": "tsdown && node dist/fetchPosts.mjs",
+    "storeEmbeddings": "tsdown && node dist/storeEmbeddings.mjs"
   },
   "keywords": [],
   "author": "",
