@@ -5,7 +5,8 @@
   "module": "module",
   "scripts": {
     "build": "tsdown",
-    "start": "tsdown && node dist/index.mjs"
+    "start": "tsdown && node dist/index.mjs",
+    "fetchPosts": "tsdown && node dist/fetchPosts.mjs"
   },
   "keywords": [],
   "author": "",
