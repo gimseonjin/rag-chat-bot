@@ -1,0 +1,23 @@
+{
+  "name": "rag-chat-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "module",
+  "scripts": {
+    "build": "tsdown",
+    "start": "tsdown && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.0.6",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.7.4",
+    "tsdown": "^0.19.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.52.0"
+  }
+}
