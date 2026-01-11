@@ -32,7 +32,8 @@ export default tseslint.config(
           ignoreStrings: true,
           ignoreTemplateLiterals: true
         }
-      ]
+      ],
+      '@typescript-eslint/no-unused-vars': 'warn'
     }
   }
 );
