@@ -7,7 +7,8 @@
     "build": "tsdown",
     "start": "tsdown && node dist/index.mjs",
     "fetchPosts": "tsdown && node dist/fetchPosts.mjs",
-    "storeEmbeddings": "tsdown && node dist/storeEmbeddings.mjs"
+    "storeEmbeddings": "tsdown && node dist/storeEmbeddings.mjs",
+    "answerQuestion": "tsdown && node dist/answerQuestion.mjs"
   },
   "keywords": [],
   "author": "",
